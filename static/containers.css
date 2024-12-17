@@ -1,0 +1,64 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+
+}
+
+
+
+.grid-container img {
+  width: 100%; /* Make the image fill the entire width */
+  height: 100%; /* Make the image fill the entire height */
+  object-fit: contain; /* Ensures the image is fully visible without distortion */
+}
+
+.grid-container img2 {
+  width: 100%; /* Make the image fill the entire width */
+  height: 100%; /* Make the image fill the entire height */
+  object-fit: contain; /* Ensures the image is fully visible without distortion */
+  grid-column: 1 / 4;
+}
+
+.container {
+    margin-left: 128px; /* Adjust this value to control left margin */
+    /*margin-right: auto; /* Ensures the container stays aligned with the left margin */
+    padding: 10px; /* Adds some internal spacing */
+    max-width: 1200px; /* Sets a maximum width for the container */
+    background-color: #ffffff; /* Light background color */
+    /*border: 1px solid #ddd; /* Subtle border */
+    /*border-radius: 8px; /* Rounded corners */
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    font-family: Arial, sans-serif; /* Sets a default font */
+    font-size: 16px; /* Sets a default font size */
+    line-height: 1.5; /* Improves readability */
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container has height */
+    text-align: center; /* Center text alignment if it wraps */
+    margin: 0; /* Remove previous margins */
+}
+
+.text-header {
+    font-size: 26;
+    color: black;
+}
+
+.text-results{
+    font-size: 22;
+    color: black;
+}

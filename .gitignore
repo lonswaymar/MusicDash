@@ -1,0 +1,4 @@
+/notebooks/*
+__pycache__
+/data/*
+call_API.sh
