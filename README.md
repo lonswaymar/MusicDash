@@ -1,8 +1,9 @@
-# The contents of this repository are insufficient to run the dashboard
-since I've removed the portion that contacts the Spotify API.
+## Analyze the contents of a Spotify playlist and visualize metrics via a Flask dashboard.
+
+Currently, this repository won't work as is since I've removed the portion that contacts the Spotify API.
 
 To start it up again, begin by writing a function that grabs data from the
-API and insert its call into the @app.before_request endpoint in dashboard.py
+spotify API and insert its call into the @app.before_request endpoint in dashboard.py
 
 Have your API-calling-function return a pandas dataframe with columns:
 Artist,Title,Duration,UpdatedGenre where `UpdatedGenre` refers to the genre 
